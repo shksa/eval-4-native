@@ -1,0 +1,52 @@
+.leaderboard {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 0 35px 0 35px;
+}
+.score {
+    /* display: flex;
+    flex-direction: column; */
+}
+.scoreDigits {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -40px;
+}
+.listing {
+    display: flex;
+    flex-direction: column;
+}
+.leaderboardHeader {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.playerBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    align-content: center;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.playAgainButton {
+    margin: auto;
+    width: 170px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    border: 3px solid black;
+}
+.playButtonArea {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
